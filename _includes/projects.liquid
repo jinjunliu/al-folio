@@ -11,6 +11,20 @@
           class="card-img-top"
         %}
       {% endif %}
+      {% if project.video %}
+        <div class="video-container">
+        <video 
+            autoplay
+            preload="auto"
+            class="card-img-top"
+            width="100%" 
+            height="auto"
+        >
+            <source src="{{ project.video }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+      {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
