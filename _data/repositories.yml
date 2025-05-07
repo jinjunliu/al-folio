@@ -6,3 +6,5 @@ repo_description_lines_max: 2
 github_repos:
   - jinjunliu/notes
   - jinjunliu/udacity-java-programming-nano-degree
+  - jinjunliu/ConvLSTM-PyTorch
+  - jinjunliu/al-folio

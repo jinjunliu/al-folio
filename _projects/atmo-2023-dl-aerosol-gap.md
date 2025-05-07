@@ -22,3 +22,7 @@ Deep learning, particularly the use of multi-layered neural networks, offers a p
 <img src="/assets/img/projects/2023-dl-aerosol-1.png" alt="Aerosol optical depth (AOD) at various time steps" class="img-fluid" style="width: 100%; height: auto;"/>
 
 This figure depicts the aerosol optical depth (AOD) at various time steps. In our ConvLSTM model, we utilize six frames as input and six frames as output. The first row represents the input data, the second row displays the ground truth, and the third row shows the model's predictions.
+
+## Source code
+
+The source code for this project can be found [here](https://github.com/jinjunliu/ConvLSTM-PyTorch).
