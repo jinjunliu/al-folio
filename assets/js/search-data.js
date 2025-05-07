@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Jinjun Liu&#39;s GitHub repositories.",
@@ -58,7 +51,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-current-state-of-machine-learning-in-tropical-cyclone-research-2023-2024",
+        },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books/";
+              },
+            },{id: "post-the-current-state-of-machine-learning-in-tropical-cyclone-research-2023-2024",
         
           title: "The Current State of Machine Learning in Tropical Cyclone Research (2023–2024)",
         
@@ -91,6 +98,39 @@ ninja.data = [{
             window.location.href = "/blog/2024/python-plot-map-subplots/";
           
         },
+      },{id: "post-run-local-large-language-models",
+        
+          title: "Run Local Large Language Models",
+        
+        description: "Introduce `ollama`, `Enchanted`, and `OpenCat` to run large language models locally on MacOS.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/run-local-llm/";
+          
+        },
+      },{id: "post-index-area-citation-error-of-microsoft-word",
+        
+          title: "Index Area Citation Error of Microsoft Word",
+        
+        description: "How to fix the error shown in Microsoft Word: Citation/Bibliography is wrongly placed in index area, please delete the placed citation/bibliography in index area.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/word-citation-error/";
+          
+        },
+      },{id: "post-rime-input-method-on-macos",
+        
+          title: "Rime Input Method on MacOS",
+        
+        description: "This article explains how to set up the Rime input method on MacOS.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rime-input/";
+          
+        },
       },{id: "post-using-unofficial-cloud-storage-to-sync-zotero-library",
         
           title: "Using Unofficial Cloud Storage to Sync Zotero Library",
@@ -100,6 +140,39 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/zotero-sync/";
+          
+        },
+      },{id: "post-python-environment-management",
+        
+          title: "Python Environment Management",
+        
+        description: "This post mainly introduces how to use `conda` and `venv` to manage Python environments.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/python-env-manage/";
+          
+        },
+      },{id: "post-installation-and-setup-of-centos-linux-server",
+        
+          title: "Installation and Setup of CentOS Linux Server",
+        
+        description: "This post documents some considerations during the installation of CentOS and provides instructions for post-installation setup, including software installation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/linux-server-setup/";
+          
+        },
+      },{id: "post-example-of-using-wget",
+        
+          title: "Example of Using Wget",
+        
+        description: "This post provides examples of using Wget to download data from FTP sites.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/wget-usage/";
           
         },
       },{id: "books-the-godfather",

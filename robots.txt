@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://al-folio.jinjunliu.com/sitemap.xml
+Sitemap: https://jinjunliu.com/sitemap.xml
