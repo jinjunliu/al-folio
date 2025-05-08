@@ -175,11 +175,11 @@ ninja.data = [{
             window.location.href = "/blog/2015/wget-usage/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-python工匠",
+          title: 'Python工匠',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/Python_Craftsman/";
             },},{id: "news-i-started-my-phd-at-texas-a-amp-amp-m-university",
           title: 'I started my PhD at Texas A&amp;amp;amp;M University.',
           description: "",
