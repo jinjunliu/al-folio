@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Jinjun Liu&#39;s teaching activities at Texas A&amp;M University.",
+          description: "My teaching activities at Texas A&amp;M University.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -65,7 +65,25 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-the-current-state-of-machine-learning-in-tropical-cyclone-research-2023-2024",
+            },{id: "dropdown-microposts",
+              title: "microposts",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/microposts/";
+              },
+            },{id: "post-bringing-memos-microposts-to-al-folio",
+        
+          title: "Bringing Memos Microposts to al-folio",
+        
+        description: "How I wired my Memos instance into the al-folio Jekyll theme, built a dedicated layout, paginated the API, handled images and embedded quotes, and then moved all JS/CSS to the assets pipeline.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/memos-in-al-folio/";
+          
+        },
+      },{id: "post-the-current-state-of-machine-learning-in-tropical-cyclone-research-2023-2024",
         
           title: "The Current State of Machine Learning in Tropical Cyclone Research (2023–2024)",
         
