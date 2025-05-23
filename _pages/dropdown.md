@@ -10,4 +10,7 @@ children:
   - title: divider
   - title: bookshelf
     permalink: /books/
+  - title: divider
+  - title: microposts
+    permalink: /microposts/
 ---

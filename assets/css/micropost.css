@@ -1,0 +1,57 @@
+.microposts        { margin-top: 1.5rem; }
+.micropost         { margin-bottom: 2rem; border-bottom: 1px solid var(--border-color,#e0e0e0); padding-bottom: 1rem; }
+.micropost-meta    { font-size: .9rem; color: var(--text-muted-color,#666); margin-bottom: .25rem; }
+.micropost-body p  { margin: .4rem 0; }
+
+.micropost-img          { margin: .6rem 0; text-align: center; }
+.micropost-img img      { max-width: 100%; height: auto; border-radius: .375rem; }
+.micropost-img figcaption{ font-size: .8rem; color: var(--text-muted-color,#777); margin-top: .25rem; }
+
+.memo-embed        { border-left: 4px solid var(--border-color,#999);
+                      padding-left: .75rem; margin: .5rem 0;
+                      background: rgba(0,0,0,.03); }
+
+/* ─── gallery layout ────────────────────────────────── */
+.micropost-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.micropost-gallery .micropost-img {
+  display: inline-block;
+  flex: 1 0 220px;                   /* ≈220 px minimum, grow if room */
+  max-width: calc(33.333% - .5rem);  /* three-across on a wide screen */
+  margin: 0;                         /* gap handled by parent flexbox */
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .micropost-gallery .micropost-img {
+    max-width: calc(50% - .5rem);    /* two-across on phones */
+  }
+}
+
+.micropost-gallery img {
+  width: 100%;
+  height: auto;
+  cursor: zoom-in;                   /* visual cue */
+}
+
+/* ─── lightbox overlay ──────────────────────────────── */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: zoom-out;
+}
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: .375rem;
+}
+  

@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Jinjun Liu's teaching activities at Texas A&M University.
+description: "My teaching activities at Texas A&M University."
 nav: true
 nav_order: 3
 ---
