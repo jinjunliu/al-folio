@@ -6,7 +6,7 @@ subtitle: A passionate researcher in weather, climate, and data science.
 
 profile:
   align: right
-  image: prof_pic_new.jpeg
+  image: prof_pic_gemini.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>3150 TAMU</p>
